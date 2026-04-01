@@ -3,7 +3,6 @@ plugins {
     id("org.jetbrains.kotlin.android")
     id("com.google.devtools.ksp")
     id("com.google.dagger.hilt.android")
-    kotlin("kapt")
 }
 
 android {
@@ -72,7 +71,7 @@ dependencies {
     // Hilt (DI)
     val hiltVersion = "2.50"
     implementation("com.google.dagger:hilt-android:$hiltVersion")
-    kapt("com.google.dagger:hilt-compiler:$hiltVersion") // procesa anotaciones
+    ksp("com.google.dagger:hilt-compiler:$hiltVersion") // procesa anotaciones
     implementation("androidx.hilt:hilt-navigation-compose:1.1.0") // integración con Compose
 
     // Coroutines

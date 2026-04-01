@@ -3,7 +3,7 @@ package com.rosana.yourdead.data.repository
 import com.rosana.yourdead.data.local.TaskDao
 import com.rosana.yourdead.data.local.toDomain
 import com.rosana.yourdead.data.local.toEntity
-import com.rosana.yourdead.domain.model.Task
+import domain.model.Task
 import com.rosana.yourdead.domain.repository.TaskRepository
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map

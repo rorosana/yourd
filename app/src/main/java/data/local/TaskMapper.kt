@@ -1,6 +1,6 @@
 package com.rosana.yourdead.data.local
 
-import com.rosana.yourdead.domain.model.Task
+import domain.model.Task
 
 // Convert domain Task to database TaskEntity
 fun Task.toEntity(): TaskEntity {

@@ -1,6 +1,6 @@
 package com.rosana.yourdead.domain.repository
 
-import com.rosana.yourdead.domain.model.Task
+import domain.model.Task
 import kotlinx.coroutines.flow.Flow
 
 interface TaskRepository {
